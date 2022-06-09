@@ -1,0 +1,45 @@
+#+title: What I have done so far to make this site up
+
+
+* Read this tutorial:
++ https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/
+
+** More details:
++ https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html
+
+* Google Cloud Hosting
++ https://cloud.google.com/storage/docs/hosting-static-website?hl=fr#objectives
+
+** Sync local files to google bucket with CLI
+
+*** Install gsutil
+
+  #+BEGIN_SRC bash
+  sudo apt-get install apt-transport-https ca-certificates gnupg
+  echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+  curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
+  sudo apt-get update && sudo apt-get install google-cloud-cli
+  #+END_SRC
+
+* Beautiful CSS with tailwindcss (not working)
++ https://tailwindcss.com/docs/installation
+
+** Install nvm (Node Version Manager)
++ https://github.com/nvm-sh/nvm
+
+  #+BEGIN_SRC bash
+  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+  #+END_SRC
+
+** Install node and npm
+#+BEGIN_SRC bash
+nvm install node
+#+END_SRC
+
+** Install package and create conf file
+#+BEGIN_SRC bash
+md ~/Comp/nodejs/
+cd ~/Comp/nodejs/
+npm install -D tailwindcss
+npx tailwindcss init
+#+END_SRC

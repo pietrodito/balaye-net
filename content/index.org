@@ -1,0 +1,5 @@
+* Welcome to ~balaye.net~
+
+
++ [[file:how-to.org][How to build this site up]]
++ [[file:~/Comp/my-org-site/public/CV_Balaye.pdf][Pierre Balayé's Curriculum Vitae]]
