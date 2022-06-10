@@ -1,5 +1,5 @@
+#+OPTIONS: html-postamble:t
+#+BIND: org-html-postamble-format (("en" "TEST"))
+
 * Welcome to ~balaye.net~
 
-
-+ [[file:dwld/CV_Balaye.pdf][Pierre Balayé's Curriculum Vitae]]
-+ [[file:how-to.org][How to build this site up]]

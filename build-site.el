@@ -13,6 +13,9 @@
 ;; Install dependencies
 (package-install 'htmlize)
 
+(with-eval-after-load 'ox
+   (setq org-export-allow-bind-keywords t))
+
 ;; Load the publishing system
 (require 'ox-publish)
 
@@ -41,14 +44,15 @@
       org-html-head (concat
                      "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />"
                      "<header>"
-                     "      <nav>"
-                     "  <a href=\"/\">Home</a>"
-                     "  <a href=\"https://github.com/pietrodito\">Github</a>"
-                     "  <a href=\"/snds\">SNDS</a>"
-                     "  <a href=\"/contact\">Contact</a>"
-                     "      </nav>"
-                     "      <h1>balaye.net</h1>"
+                     "      <h1><code>balaye.net</code></h1>"
                      "      <p>A personal website dispatcher.</p>"
+                     "      <nav>"
+                     "  <a href=\"./index.html\">Home</a>"
+                     "  <a href=\"https://github.com/pietrodito\">Github</a>"
+                     "  <a href=\"./snds.html\">SNDS</a>"
+                     "  <a href=\"./how-to.html\">Making of</a>"
+                     "  <a href=\"./contact.html\">Contact</a>"
+                     "      </nav>"
                      "</header>"
                      ))
 
