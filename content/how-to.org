@@ -33,6 +33,10 @@
   You have to redirect connections from Google Domains (DNS submenu) to CloudFlare
 
 -----
+** Use simple css
++ https://simplecss.org/
+
+-----
 ** Beautiful CSS with tailwindcss (not working)
 + https://tailwindcss.com/docs/installation
 

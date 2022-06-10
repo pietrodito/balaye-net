@@ -7,28 +7,28 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>What I have done so far to make this site up</title>
 <meta name="generator" content="Org mode" />
-<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" /><header>      <nav>  <a href="/">Home</a>  <a href="https://github.com/pietrodito">Github</a>  <a href="/snds" >snds</a>  <a href="/contact" >Contact</a>      </nav>      <h1>balaye.net</h1>      <p>A personal website dispatcher.</p></header>
 </head>
 <body>
 <div id="content">
 <h1 class="title">What I have done so far to make this site up</h1>
 <hr />
 
-<div id="outline-container-orgdfc8386" class="outline-2">
-<h2 id="orgdfc8386">Build the html static pages with emacs</h2>
-<div class="outline-text-2" id="text-orgdfc8386">
+<div id="outline-container-org475c2e1" class="outline-2">
+<h2 id="org475c2e1">Build the html static pages with emacs</h2>
+<div class="outline-text-2" id="text-org475c2e1">
 </div>
-<div id="outline-container-org77dde34" class="outline-3">
-<h3 id="org77dde34">Read this tutorial:</h3>
-<div class="outline-text-3" id="text-org77dde34">
+<div id="outline-container-org3aa45e8" class="outline-3">
+<h3 id="org3aa45e8">Read this tutorial:</h3>
+<div class="outline-text-3" id="text-org3aa45e8">
 <ul class="org-ul">
 <li><a href="https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/">https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/</a></li>
 </ul>
 </div>
 
-<div id="outline-container-org650cc32" class="outline-4">
-<h4 id="org650cc32">More details:</h4>
-<div class="outline-text-4" id="text-org650cc32">
+<div id="outline-container-orga235bd8" class="outline-4">
+<h4 id="orga235bd8">More details:</h4>
+<div class="outline-text-4" id="text-orga235bd8">
 <ul class="org-ul">
 <li><a href="https://orgmode.org/manual/Publishing.html">https://orgmode.org/manual/Publishing.html</a></li>
 <li><a href="https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html">https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html</a></li>
@@ -40,21 +40,21 @@
 </div>
 </div>
 </div>
-<div id="outline-container-org12130c8" class="outline-2">
-<h2 id="org12130c8">Google Cloud Hosting</h2>
-<div class="outline-text-2" id="text-org12130c8">
+<div id="outline-container-org80d7c89" class="outline-2">
+<h2 id="org80d7c89">Google Cloud Hosting</h2>
+<div class="outline-text-2" id="text-org80d7c89">
 <ul class="org-ul">
 <li><a href="https://cloud.google.com/storage/docs/hosting-static-website?hl=fr#objectives">https://cloud.google.com/storage/docs/hosting-static-website?hl=fr#objectives</a></li>
 </ul>
 </div>
 
-<div id="outline-container-orga4cbc56" class="outline-3">
-<h3 id="orga4cbc56">Sync local files to google bucket with CLI</h3>
-<div class="outline-text-3" id="text-orga4cbc56">
+<div id="outline-container-orge35d8df" class="outline-3">
+<h3 id="orge35d8df">Sync local files to google bucket with CLI</h3>
+<div class="outline-text-3" id="text-orge35d8df">
 </div>
-<div id="outline-container-org30809fa" class="outline-4">
-<h4 id="org30809fa">Install gsutil</h4>
-<div class="outline-text-4" id="text-org30809fa">
+<div id="outline-container-orgc82071a" class="outline-4">
+<h4 id="orgc82071a">Install gsutil</h4>
+<div class="outline-text-4" id="text-orgc82071a">
 <div class="org-src-container">
 <pre class="src src-bash">sudo apt-get install apt-transport-https ca-certificates gnupg
 <span style="font-weight: bold;">echo</span> <span style="font-style: italic;">"deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main"</span> | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
@@ -68,9 +68,9 @@ sudo apt-get update &amp;&amp; sudo apt-get install google-cloud-cli
 </div>
 </div>
 </div>
-<div id="outline-container-org6d37f44" class="outline-2">
-<h2 id="org6d37f44">Use cloudflare for free SSL certificate</h2>
-<div class="outline-text-2" id="text-org6d37f44">
+<div id="outline-container-orga8f2f3b" class="outline-2">
+<h2 id="orga8f2f3b">Use cloudflare for free SSL certificate</h2>
+<div class="outline-text-2" id="text-orga8f2f3b">
 <ul class="org-ul">
 <li><p>
 <a href="https://dash.cloudflare.com/228fddaae61d793f4f42d6fa7113c567/balaye.net">https://dash.cloudflare.com/228fddaae61d793f4f42d6fa7113c567/balaye.net</a>
@@ -84,17 +84,17 @@ You have to redirect connections from Google Domains (DNS submenu) to CloudFlare
 <hr />
 </div>
 </div>
-<div id="outline-container-org52c4cc9" class="outline-2">
-<h2 id="org52c4cc9">Beautiful CSS with tailwindcss (not working)</h2>
-<div class="outline-text-2" id="text-org52c4cc9">
+<div id="outline-container-org7299ac6" class="outline-2">
+<h2 id="org7299ac6">Beautiful CSS with tailwindcss (not working)</h2>
+<div class="outline-text-2" id="text-org7299ac6">
 <ul class="org-ul">
 <li><a href="https://tailwindcss.com/docs/installation">https://tailwindcss.com/docs/installation</a></li>
 </ul>
 </div>
 
-<div id="outline-container-org858c28f" class="outline-3">
-<h3 id="org858c28f">Install nvm (Node Version Manager)</h3>
-<div class="outline-text-3" id="text-org858c28f">
+<div id="outline-container-orgd02e84c" class="outline-3">
+<h3 id="orgd02e84c">Install nvm (Node Version Manager)</h3>
+<div class="outline-text-3" id="text-orgd02e84c">
 <ul class="org-ul">
 <li><p>
 <a href="https://github.com/nvm-sh/nvm">https://github.com/nvm-sh/nvm</a>
@@ -108,9 +108,9 @@ You have to redirect connections from Google Domains (DNS submenu) to CloudFlare
 </div>
 </div>
 
-<div id="outline-container-org12aa938" class="outline-3">
-<h3 id="org12aa938">Install node and npm</h3>
-<div class="outline-text-3" id="text-org12aa938">
+<div id="outline-container-orge9abc6e" class="outline-3">
+<h3 id="orge9abc6e">Install node and npm</h3>
+<div class="outline-text-3" id="text-orge9abc6e">
 <div class="org-src-container">
 <pre class="src src-bash">nvm install node
 </pre>
@@ -118,9 +118,9 @@ You have to redirect connections from Google Domains (DNS submenu) to CloudFlare
 </div>
 </div>
 
-<div id="outline-container-org0dfa5aa" class="outline-3">
-<h3 id="org0dfa5aa">Install package and create conf file</h3>
-<div class="outline-text-3" id="text-org0dfa5aa">
+<div id="outline-container-org9945337" class="outline-3">
+<h3 id="org9945337">Install package and create conf file</h3>
+<div class="outline-text-3" id="text-org9945337">
 <div class="org-src-container">
 <pre class="src src-bash">md ~/Comp/nodejs/
 <span style="font-weight: bold;">cd</span> ~/Comp/nodejs/
