@@ -1,0 +1,6 @@
+* ~404~ - sorry nothing here...
+
+[[file:index.org][Back home?]]
+
+#+attr_html: :width 200px :align middle
+[[file:./img/404-balaye.net.jpg]]

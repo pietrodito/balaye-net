@@ -20,10 +20,14 @@
 (setq org-publish-project-alist
       (list
        (list "org-site:main"
-             :recursive t
+             ;; Source and destinations
              :base-directory "./content"
-             :publishing-function 'org-html-publish-to-html
              :publishing-directory "./public"
+             ;; Selecting files
+             :recursive t
+             ;; Publishing action
+             :publishing-function 'org-html-publish-to-html
+             ;; Publishing options
              :with-author nil           ;; Don't include author name
              :with-creator t            ;; Include Emacs and Org versions in footer
              :with-toc nil

@@ -12,41 +12,49 @@
 <body>
 <div id="content">
 <h1 class="title">What I have done so far to make this site up</h1>
+<hr />
 
-
-<div id="outline-container-org24d2691" class="outline-2">
-<h2 id="org24d2691">Read this tutorial:</h2>
-<div class="outline-text-2" id="text-org24d2691">
+<div id="outline-container-orgdfc8386" class="outline-2">
+<h2 id="orgdfc8386">Build the html static pages with emacs</h2>
+<div class="outline-text-2" id="text-orgdfc8386">
+</div>
+<div id="outline-container-org77dde34" class="outline-3">
+<h3 id="org77dde34">Read this tutorial:</h3>
+<div class="outline-text-3" id="text-org77dde34">
 <ul class="org-ul">
 <li><a href="https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/">https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/</a></li>
 </ul>
 </div>
 
-<div id="outline-container-orge150ded" class="outline-3">
-<h3 id="orge150ded">More details:</h3>
-<div class="outline-text-3" id="text-orge150ded">
+<div id="outline-container-org650cc32" class="outline-4">
+<h4 id="org650cc32">More details:</h4>
+<div class="outline-text-4" id="text-org650cc32">
 <ul class="org-ul">
+<li><a href="https://orgmode.org/manual/Publishing.html">https://orgmode.org/manual/Publishing.html</a></li>
 <li><a href="https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html">https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html</a></li>
 </ul>
-</div>
-</div>
-</div>
 
-<div id="outline-container-org8bce798" class="outline-2">
-<h2 id="org8bce798">Google Cloud Hosting</h2>
-<div class="outline-text-2" id="text-org8bce798">
+
+<hr />
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org12130c8" class="outline-2">
+<h2 id="org12130c8">Google Cloud Hosting</h2>
+<div class="outline-text-2" id="text-org12130c8">
 <ul class="org-ul">
 <li><a href="https://cloud.google.com/storage/docs/hosting-static-website?hl=fr#objectives">https://cloud.google.com/storage/docs/hosting-static-website?hl=fr#objectives</a></li>
 </ul>
 </div>
 
-<div id="outline-container-orgf3f868e" class="outline-3">
-<h3 id="orgf3f868e">Sync local files to google bucket with CLI</h3>
-<div class="outline-text-3" id="text-orgf3f868e">
+<div id="outline-container-orga4cbc56" class="outline-3">
+<h3 id="orga4cbc56">Sync local files to google bucket with CLI</h3>
+<div class="outline-text-3" id="text-orga4cbc56">
 </div>
-<div id="outline-container-org176d986" class="outline-4">
-<h4 id="org176d986">Install gsutil</h4>
-<div class="outline-text-4" id="text-org176d986">
+<div id="outline-container-org30809fa" class="outline-4">
+<h4 id="org30809fa">Install gsutil</h4>
+<div class="outline-text-4" id="text-org30809fa">
 <div class="org-src-container">
 <pre class="src src-bash">sudo apt-get install apt-transport-https ca-certificates gnupg
 <span style="font-weight: bold;">echo</span> <span style="font-style: italic;">"deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main"</span> | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
@@ -54,22 +62,39 @@ curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyr
 sudo apt-get update &amp;&amp; sudo apt-get install google-cloud-cli
 </pre>
 </div>
-</div>
-</div>
-</div>
-</div>
 
-<div id="outline-container-orgdd0c74a" class="outline-2">
-<h2 id="orgdd0c74a">Beautiful CSS with tailwindcss (not working)</h2>
-<div class="outline-text-2" id="text-orgdd0c74a">
+<hr />
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org6d37f44" class="outline-2">
+<h2 id="org6d37f44">Use cloudflare for free SSL certificate</h2>
+<div class="outline-text-2" id="text-org6d37f44">
+<ul class="org-ul">
+<li><p>
+<a href="https://dash.cloudflare.com/228fddaae61d793f4f42d6fa7113c567/balaye.net">https://dash.cloudflare.com/228fddaae61d793f4f42d6fa7113c567/balaye.net</a>
+</p>
+
+<p>
+You have to redirect connections from Google Domains (DNS submenu) to CloudFlare
+</p></li>
+</ul>
+
+<hr />
+</div>
+</div>
+<div id="outline-container-org52c4cc9" class="outline-2">
+<h2 id="org52c4cc9">Beautiful CSS with tailwindcss (not working)</h2>
+<div class="outline-text-2" id="text-org52c4cc9">
 <ul class="org-ul">
 <li><a href="https://tailwindcss.com/docs/installation">https://tailwindcss.com/docs/installation</a></li>
 </ul>
 </div>
 
-<div id="outline-container-org5934959" class="outline-3">
-<h3 id="org5934959">Install nvm (Node Version Manager)</h3>
-<div class="outline-text-3" id="text-org5934959">
+<div id="outline-container-org858c28f" class="outline-3">
+<h3 id="org858c28f">Install nvm (Node Version Manager)</h3>
+<div class="outline-text-3" id="text-org858c28f">
 <ul class="org-ul">
 <li><p>
 <a href="https://github.com/nvm-sh/nvm">https://github.com/nvm-sh/nvm</a>
@@ -83,9 +108,9 @@ sudo apt-get update &amp;&amp; sudo apt-get install google-cloud-cli
 </div>
 </div>
 
-<div id="outline-container-org579d76b" class="outline-3">
-<h3 id="org579d76b">Install node and npm</h3>
-<div class="outline-text-3" id="text-org579d76b">
+<div id="outline-container-org12aa938" class="outline-3">
+<h3 id="org12aa938">Install node and npm</h3>
+<div class="outline-text-3" id="text-org12aa938">
 <div class="org-src-container">
 <pre class="src src-bash">nvm install node
 </pre>
@@ -93,9 +118,9 @@ sudo apt-get update &amp;&amp; sudo apt-get install google-cloud-cli
 </div>
 </div>
 
-<div id="outline-container-org661a10e" class="outline-3">
-<h3 id="org661a10e">Install package and create conf file</h3>
-<div class="outline-text-3" id="text-org661a10e">
+<div id="outline-container-org0dfa5aa" class="outline-3">
+<h3 id="org0dfa5aa">Install package and create conf file</h3>
+<div class="outline-text-3" id="text-org0dfa5aa">
 <div class="org-src-container">
 <pre class="src src-bash">md ~/Comp/nodejs/
 <span style="font-weight: bold;">cd</span> ~/Comp/nodejs/
@@ -103,6 +128,7 @@ npm install -D tailwindcss
 npx tailwindcss init
 </pre>
 </div>
+<hr />
 </div>
 </div>
 </div>
