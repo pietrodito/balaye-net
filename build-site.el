@@ -45,7 +45,7 @@
                      "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />"
                      "<header>"
                      "      <h1><code>balaye.net</code></h1>"
-                     "      <p>A personal website dispatcher.</p>"
+                     "      <p>A personal eclectic domain.</p>"
                      "      <nav>"
                      "  <a href=\"./index.html\">Home</a>"
                      "  <a href=\"https://github.com/pietrodito\">Github</a>"
