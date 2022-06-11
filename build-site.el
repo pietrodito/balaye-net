@@ -50,6 +50,7 @@
                      "  <a href=\"./index.html\">Home</a>"
                      "  <a href=\"https://github.com/pietrodito\">Github</a>"
                      "  <a href=\"./snds.html\">SNDS</a>"
+                     "  <a href=\"./guitar-repertoire.html\">Guitar</a>"
                      "  <a href=\"./how-to.html\">Making of</a>"
                      "  <a href=\"./contact.html\">Contact</a>"
                      "      </nav>"
