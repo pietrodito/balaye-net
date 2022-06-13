@@ -42,6 +42,7 @@
       org-html-head-include-scripts nil       ;; Use our own scripts
       org-html-head-include-default-style nil ;; Use our own styles
       org-html-head (concat
+                     "<link rel=\"shortcut icon\" type=\"image/png\" href=\"img/favicon.png\" />"
                      "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />"
                      "<header>"
                      "      <h1><code>balaye.net</code></h1>"
@@ -55,7 +56,6 @@
                      "  <a href=\"./contact.html\">Contact</a>"
                      "      </nav>"
                      "</header>"
-                     "<link rel=\"SHORTCUT ICON\" href=\"img/favicon.png\" />"
                      ))
 
 ;; Generate the site output"
