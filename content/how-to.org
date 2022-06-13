@@ -1,6 +1,8 @@
-#+title: What I have done so far to make this site up
+#+title: Making of
+#+OPTIONS: title:nil
 #+OPTIONS: html-postamble:nil
 
+* What I have done so far to make this site up
 -----
 
 ** Build the html static pages with emacs

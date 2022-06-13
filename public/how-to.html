@@ -5,30 +5,34 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>What I have done so far to make this site up</title>
+<title>Making of</title>
 <meta name="generator" content="Org mode" />
 <link rel="shortcut icon" type="image/png" href="img/favicon.png" /><link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" /><header>      <h1><code>balaye.net</code></h1>      <p>A personal eclectic domain.</p>      <nav>  <a href="./index.html">Home</a>  <a href="https://github.com/pietrodito">Github</a>  <a href="./snds.html">SNDS</a>  <a href="./guitar-repertoire.html">Guitar</a>  <a href="./how-to.html">Making of</a>  <a href="./contact.html">Contact</a>      </nav></header>
 </head>
 <body>
 <div id="content">
-<h1 class="title">What I have done so far to make this site up</h1>
-<hr />
 
-<div id="outline-container-orge058781" class="outline-2">
-<h2 id="orge058781">Build the html static pages with emacs</h2>
-<div class="outline-text-2" id="text-orge058781">
+<div id="outline-container-org6cd31b2" class="outline-2">
+<h2 id="org6cd31b2">What I have done so far to make this site up</h2>
+<div class="outline-text-2" id="text-org6cd31b2">
+<hr />
 </div>
-<div id="outline-container-org17dbeb1" class="outline-3">
-<h3 id="org17dbeb1">Read this tutorial:</h3>
-<div class="outline-text-3" id="text-org17dbeb1">
+
+<div id="outline-container-org3071561" class="outline-3">
+<h3 id="org3071561">Build the html static pages with emacs</h3>
+<div class="outline-text-3" id="text-org3071561">
+</div>
+<div id="outline-container-org958ceb8" class="outline-4">
+<h4 id="org958ceb8">Read this tutorial:</h4>
+<div class="outline-text-4" id="text-org958ceb8">
 <ul class="org-ul">
 <li><a href="https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/">https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/</a></li>
 </ul>
 </div>
 
-<div id="outline-container-org7ba554d" class="outline-4">
-<h4 id="org7ba554d">More details:</h4>
-<div class="outline-text-4" id="text-org7ba554d">
+<ul class="org-ul">
+<li><a id="org5d6a5cd"></a>More details:<br />
+<div class="outline-text-5" id="text-org5d6a5cd">
 <ul class="org-ul">
 <li><a href="https://orgmode.org/manual/Publishing.html">https://orgmode.org/manual/Publishing.html</a></li>
 <li><a href="https://orgmode.org/manual/HTML-Export.html">https://orgmode.org/manual/HTML-Export.html</a></li>
@@ -38,24 +42,25 @@
 
 <hr />
 </div>
+</li>
+</ul>
 </div>
 </div>
-</div>
-<div id="outline-container-orgf22b294" class="outline-2">
-<h2 id="orgf22b294">Google Cloud Hosting</h2>
-<div class="outline-text-2" id="text-orgf22b294">
+<div id="outline-container-org47a0ee0" class="outline-3">
+<h3 id="org47a0ee0">Google Cloud Hosting</h3>
+<div class="outline-text-3" id="text-org47a0ee0">
 <ul class="org-ul">
 <li><a href="https://cloud.google.com/storage/docs/hosting-static-website?hl=fr#objectives">https://cloud.google.com/storage/docs/hosting-static-website?hl=fr#objectives</a></li>
 </ul>
 </div>
 
-<div id="outline-container-orgf466bdf" class="outline-3">
-<h3 id="orgf466bdf">Sync local files to google bucket with CLI</h3>
-<div class="outline-text-3" id="text-orgf466bdf">
+<div id="outline-container-org38a5ad8" class="outline-4">
+<h4 id="org38a5ad8">Sync local files to google bucket with CLI</h4>
+<div class="outline-text-4" id="text-org38a5ad8">
 </div>
-<div id="outline-container-org3b570ca" class="outline-4">
-<h4 id="org3b570ca">Install gsutil</h4>
-<div class="outline-text-4" id="text-org3b570ca">
+<ul class="org-ul">
+<li><a id="org311639f"></a>Install gsutil<br />
+<div class="outline-text-5" id="text-org311639f">
 <div class="org-src-container">
 <pre class="src src-bash">sudo apt-get install apt-transport-https ca-certificates gnupg
 <span style="font-weight: bold;">echo</span> <span style="font-style: italic;">"deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main"</span> | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
@@ -66,12 +71,13 @@ sudo apt-get update &amp;&amp; sudo apt-get install google-cloud-cli
 
 <hr />
 </div>
+</li>
+</ul>
 </div>
 </div>
-</div>
-<div id="outline-container-orgf7cc8df" class="outline-2">
-<h2 id="orgf7cc8df">Use cloudflare for free SSL certificate</h2>
-<div class="outline-text-2" id="text-orgf7cc8df">
+<div id="outline-container-org1125f54" class="outline-3">
+<h3 id="org1125f54">Use cloudflare for free SSL certificate</h3>
+<div class="outline-text-3" id="text-org1125f54">
 <ul class="org-ul">
 <li><p>
 <a href="https://dash.cloudflare.com/228fddaae61d793f4f42d6fa7113c567/balaye.net">https://dash.cloudflare.com/228fddaae61d793f4f42d6fa7113c567/balaye.net</a>
@@ -85,9 +91,9 @@ You have to redirect connections from Google Domains (DNS submenu) to CloudFlare
 <hr />
 </div>
 </div>
-<div id="outline-container-org5ab14c3" class="outline-2">
-<h2 id="org5ab14c3">Use simple css</h2>
-<div class="outline-text-2" id="text-org5ab14c3">
+<div id="outline-container-org379ef75" class="outline-3">
+<h3 id="org379ef75">Use simple css</h3>
+<div class="outline-text-3" id="text-org379ef75">
 <ul class="org-ul">
 <li><a href="https://simplecss.org/">https://simplecss.org/</a></li>
 </ul>
@@ -95,17 +101,17 @@ You have to redirect connections from Google Domains (DNS submenu) to CloudFlare
 <hr />
 </div>
 </div>
-<div id="outline-container-org2a04a61" class="outline-2">
-<h2 id="org2a04a61">Beautiful CSS with tailwindcss (not working)</h2>
-<div class="outline-text-2" id="text-org2a04a61">
+<div id="outline-container-orga4ff5b8" class="outline-3">
+<h3 id="orga4ff5b8">Beautiful CSS with tailwindcss (not working)</h3>
+<div class="outline-text-3" id="text-orga4ff5b8">
 <ul class="org-ul">
 <li><a href="https://tailwindcss.com/docs/installation">https://tailwindcss.com/docs/installation</a></li>
 </ul>
 </div>
 
-<div id="outline-container-org9c46401" class="outline-3">
-<h3 id="org9c46401">Install nvm (Node Version Manager)</h3>
-<div class="outline-text-3" id="text-org9c46401">
+<div id="outline-container-orga0f9d35" class="outline-4">
+<h4 id="orga0f9d35">Install nvm (Node Version Manager)</h4>
+<div class="outline-text-4" id="text-orga0f9d35">
 <ul class="org-ul">
 <li><p>
 <a href="https://github.com/nvm-sh/nvm">https://github.com/nvm-sh/nvm</a>
@@ -119,9 +125,9 @@ You have to redirect connections from Google Domains (DNS submenu) to CloudFlare
 </div>
 </div>
 
-<div id="outline-container-orgfb181c8" class="outline-3">
-<h3 id="orgfb181c8">Install node and npm</h3>
-<div class="outline-text-3" id="text-orgfb181c8">
+<div id="outline-container-org85aa2d1" class="outline-4">
+<h4 id="org85aa2d1">Install node and npm</h4>
+<div class="outline-text-4" id="text-org85aa2d1">
 <div class="org-src-container">
 <pre class="src src-bash">nvm install node
 </pre>
@@ -129,9 +135,9 @@ You have to redirect connections from Google Domains (DNS submenu) to CloudFlare
 </div>
 </div>
 
-<div id="outline-container-orgc15fad7" class="outline-3">
-<h3 id="orgc15fad7">Install package and create conf file</h3>
-<div class="outline-text-3" id="text-orgc15fad7">
+<div id="outline-container-orgc0743d0" class="outline-4">
+<h4 id="orgc0743d0">Install package and create conf file</h4>
+<div class="outline-text-4" id="text-orgc0743d0">
 <div class="org-src-container">
 <pre class="src src-bash">md ~/Comp/nodejs/
 <span style="font-weight: bold;">cd</span> ~/Comp/nodejs/
@@ -140,6 +146,7 @@ npx tailwindcss init
 </pre>
 </div>
 <hr />
+</div>
 </div>
 </div>
 </div>
