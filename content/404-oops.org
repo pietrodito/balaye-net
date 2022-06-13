@@ -1,4 +1,5 @@
 * ~404~ - sorry nothing here...
+#+OPTIONS: html-postamble:nil
 
 [[file:index.org][Back home?]]
 

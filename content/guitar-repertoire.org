@@ -1,3 +1,6 @@
+
+#+OPTIONS: html-postamble:nil
+
 * Work order
 
 ** Koji Kondo - Super Mario 2 Overwold Theme
@@ -46,8 +49,13 @@
 ** Brouwer - Study 5
 ** Dowland - Fortune my Foe
 
+
+-----
+
 * New pieces
 ** Bach - Goldberg vario. 1
+
+-----
 
 * Future pieces
 
@@ -57,3 +65,5 @@ https://tabs.ultimate-guitar.com/tab/simon-garfunkel/scarborough-fair-tabs-20229
 + Mrs Robinson
  https://www.youtube.com/watch?v=2Wx43y5xsP0
 + L'orage
+
+-----

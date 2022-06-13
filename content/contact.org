@@ -1,6 +1,5 @@
 #+title: Contact
-#+OPTIONS: html-postamble:t
-#+BIND: org-html-postamble-format (("en" "<footer><p class=\"creator\"><a href=\"https://www.gnu.org/software/emacs/\">Emacs</a> 27.2 (<a href=\"https://orgmode.org\">Org</a> mode 9.4.4)</footer>")</p>))
+#+OPTIONS: html-postamble:nil
 
 + email: pierre.balaye@gmail.com
 + [[file:dwld/CV_Balaye.pdf][Pierre Balayé's Curriculum Vitae]]

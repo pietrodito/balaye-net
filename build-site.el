@@ -55,6 +55,7 @@
                      "  <a href=\"./contact.html\">Contact</a>"
                      "      </nav>"
                      "</header>"
+                     "<link rel=\"SHORTCUT ICON\" href=\"img/favicon.png\" />"
                      ))
 
 ;; Generate the site output"
