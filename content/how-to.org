@@ -40,27 +40,3 @@
 ** Use simple css
 + https://simplecss.org/
 
------
-** Beautiful CSS with tailwindcss (not working)
-+ https://tailwindcss.com/docs/installation
-
-*** Install nvm (Node Version Manager)
-+ https://github.com/nvm-sh/nvm
-
-  #+BEGIN_SRC bash
-  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-  #+END_SRC
-
-*** Install node and npm
-#+BEGIN_SRC bash
-nvm install node
-#+END_SRC
-
-*** Install package and create conf file
-#+BEGIN_SRC bash
-md ~/Comp/nodejs/
-cd ~/Comp/nodejs/
-npm install -D tailwindcss
-npx tailwindcss init
-#+END_SRC
------
