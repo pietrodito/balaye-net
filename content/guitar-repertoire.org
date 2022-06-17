@@ -4,9 +4,8 @@
 #+OPTIONS: html-postamble:nil
 
 * Work order
-
-** ??? - Llorona
-** Granados - Danse espagnole 2
+** ??? - Llorona / BPM 60
+** Granados - Danse espagnole 2 / BPM 60
 ** Brouwer - Study 2
 ** Bach - Cello suite 2 - Courante
 ** Tarrega - Lagrima

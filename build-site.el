@@ -50,6 +50,7 @@
                      "      <nav>"
                      "  <a href=\"./index.html\">Home</a>"
                      "  <a href=\"https://github.com/pietrodito\">Github</a>"
+                     "  <a href=\"https://stackoverflow.com/users/6537892/pietrodito\">Stack Overflow</a>"
                      "  <a href=\"./snds.html\">SNDS</a>"
                      "  <a href=\"./guitar-repertoire.html\">Guitar</a>"
                      "  <a href=\"./how-to.html\">Making of</a>"
