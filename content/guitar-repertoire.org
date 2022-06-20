@@ -9,15 +9,11 @@
 ** Brouwer - Study 2
 ** Bach - Cello suite 2 - Courante
 ** Tarrega - Lagrima
-** Brouwer - Study 1
-+ BPM 100 : <2022-06-10 Fri>
+** Brouwer - Study 1 / BPM 100
 ** Brouwer - Study 7
-** Manuel de FALLA - Chanson du Feu Follet
-+ BPM 70 : <2022-06-10 Fri>
-** Lauro - Vals Venezolano No. 1
-+ BPM 75 : <2022-06-10 Fri>
-** Koji Kondo - Super Mario 2 Overwold Theme
-+ BPM 60 : <2022-06-10 Fri>
+** Manuel de FALLA - Chanson du Feu Follet / BPM 70
+** Lauro - Vals Venezolano No. 1 / BPM 75
+** Koji Kondo - Super Mario 2 Overwold Theme / BPM 60
 ** Bach - Well-Tempered Keyboard - C Major Prelude
 + BPM 37 : <2022-06-10 Fri>
 ** Brouwer - Study 5
