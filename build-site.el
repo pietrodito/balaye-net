@@ -44,20 +44,23 @@
       org-html-head (concat
                      "<link rel=\"shortcut icon\" type=\"image/png\" href=\"img/favicon.png\" />"
                      "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />"
+                     "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css\">"
                      "<header>"
                      "      <h1><code>balaye.net</code></h1>"
                      "      <p>A personal eclectic domain.</p>"
                      "      <nav>"
-                     "  <a href=\"./index.html\">Home</a>"
-                     "  <a href=\"https://github.com/pietrodito\">Github</a>"
-                     "  <a href=\"https://stackoverflow.com/users/6537892/pietrodito\">Stack Overflow</a>"
-                     "  <a href=\"./snds.html\">SNDS</a>"
-                     "  <a href=\"./guitar-repertoire.html\">Guitar</a>"
-                     "  <a href=\"./how-to.html\">Making of</a>"
-                     "  <a href=\"./contact.html\">Contact</a>"
+                     "  <a href=\"./index.html\"><i class=\"fas fa-home\"></i> Home</a>"
+                     "  <a href=\"./snds.html\"><i class=\"fas fa-stethoscope\"></i> SNDS</a>"
+                     "  <a href=\"./guitar-repertoire.html\"><i class=\"fas  fa-guitar\"></i> Guitar</a>"
+                     "  <a href=\"https://github.com/pietrodito\"><i class=\"fab  fa-github\"></i> Github</a>"
+                     "  <a href=\"https://stackoverflow.com/users/6537892/pietrodito\"><i class=\"fab fa-stack-overflow\"></i> Stack Overflow</a>"
+                     "  <a href=\"./how-to.html\"><i class=\"fa-solid fa-screwdriver-wrench\"></i> Making of</a>"
+                     "  <a href=\"./contact.html\"><i class=\"fas fa-address-book\"></i> Contact</a>"
                      "      </nav>"
                      "</header>"
                      ))
+
+
 
 ;; Generate the site output"
 (org-publish-all t)
