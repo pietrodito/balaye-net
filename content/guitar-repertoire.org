@@ -1,51 +1,44 @@
 #+TITLE: Guitar
-
-
+#+OPTIONS: title:nil
 #+OPTIONS: html-postamble:nil
 
-* Work order
-** ??? - Llorona / BPM 60
-** Granados - Danse espagnole 2 / BPM 60
-** Brouwer - Study 2
-** Bach - Cello suite 2 - Courante
-** Tarrega - Lagrima
-** Brouwer - Study 1 / BPM 100
-** Brouwer - Study 7
-** Manuel de FALLA - Chanson du Feu Follet / BPM 70
-** Lauro - Vals Venezolano No. 1 / BPM 75
-** Koji Kondo - Super Mario 2 Overwold Theme / BPM 60
-** Bach - Well-Tempered Keyboard - C Major Prelude
-+ BPM 37 : <2022-06-10 Fri>
-** Brouwer - Study 5
-** Brouwer - Study 6
-+ BPM 70 : <2022-06-10 Fri>
-** Brouwer - Study 9
-** Red Hot Chili Peppers - Under the bridge
-+ BPM 70 : <2022-06-10 Fri>
-** Satie - Gnossienne 1
-** Brouwer - Study 4
-+ BPM 60 : <2022-06-10 Fri>
-** Barrios - Preludio en Do Minor
-** Mudarra - Pavane et Gaillarde d'Alexandre
-** Brouwer - Study 3
-** Tarrega - Capricho Árabe
-** Satie - Gymnopedie 1
-** Dowland - Fortune my Foe
-** Bach - Cello suite 1 - Prelude
-** Brouwer - Study 8
-** Brouwer - Study 11
-+ BPM 75 : <2022-06-10 Fri>
-** Brouwer - Study 10
-+ BPM 55 : <2022-06-10 Fri> !! reprendre partition pour ryhtme
-** Guilini E. - Praludie 1
-+ BPM 70 : <2022-06-10 Fri>
-** Lauro - Vals Venezolano No. 2
-** Lauro - Vals Venezolano No. 3
-+ BPM 65 : <2022-06-10 Fri>
-** Bach - Cello suite 2 - Prelude
-** Jackson 5 - Ben
-* New pieces
-** Bach - Goldberg vario. 1
+This is the list of pieces I play in a random order for working puprose
+* Known pieces
++ ??? - Llorona / BPM 60
++ Granados - Danse espagnole 2 / BPM 60
++ Brouwer - Study 2
++ Bach - Cello suite 2 - Courante
++ Tarrega - Lagrima
++ Brouwer - Study 1 / BPM 100
++ Brouwer - Study 7
++ Manuel de FALLA - Chanson du Feu Follet / BPM 70
++ Lauro - Vals Venezolano No. 1 / BPM 75
++ Koji Kondo - Super Mario 2 Overwold Theme / BPM 60
++ Bach - Well-Tempered Keyboard - C Major Prelude / BPM 37
++ Brouwer - Study 5
++ Brouwer - Study 6 / BPM 70
++ Brouwer - Study 9
++ Red Hot Chili Peppers - Under the bridge / BPM 70
++ Satie - Gnossienne 1
++ Brouwer - Study 4 / BPM 60
++ Barrios - Preludio en Do Minor
++ Mudarra - Pavane et Gaillarde d'Alexandre
++ Brouwer - Study 3
++ Tarrega - Capricho Árabe
++ Satie - Gymnopedie 1
++ Dowland - Fortune my Foe
++ Bach - Cello suite 1 - Prelude
++ Brouwer - Study 8
++ Brouwer - Study 11 / BPM 75
++ Brouwer - Study 10 / BPM 55 !! reprendre partition pour ryhtme
++ Guilini E. - Praludie 1 / BPM 70
++ Lauro - Vals Venezolano No. 2
++ Lauro - Vals Venezolano No. 3 / BPM 65
++ Bach - Cello suite 2 - Prelude
++ Jackson 5 - Ben
+
+* Work in progress
++ Bach - Goldberg vario. 1
 
 -----
 

@@ -1,6 +1,6 @@
 #+title: Contact
 #+OPTIONS: html-postamble:nil
 
-+ email: pierre.balaye@gmail.com
-+ [[file:dwld/CV_Balaye.pdf][Pierre Balayé's Curriculum Vitae]]
-
++ My name is Pierre Balaye
++ You can email me using pierre.balaye at gmail
++ [[file:dwld/CV_Balaye.pdf][Curriculum Vitae]]

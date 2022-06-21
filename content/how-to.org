@@ -6,10 +6,9 @@
 -----
 
 ** Build the html static pages with emacs
-*** Read this tutorial:
 + https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/
 
-**** More details:
+*** More details:
 + https://orgmode.org/manual/Publishing.html
 + https://orgmode.org/manual/HTML-Export.html
 + https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html
@@ -40,3 +39,10 @@
 ** Use simple css
 + https://simplecss.org/
 
+-----
+** Use Awesome Font
++ https://fontawesome.com
+
+ -----
+** Github repo:
++ https://github.com/pietrodito/balaye-net
