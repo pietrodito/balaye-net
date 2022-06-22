@@ -3,4 +3,4 @@
 
 emacs -Q --script ./build-site.el
 
-rm -f public/*~
+rm -f ../pietrodito.github.io/*~
