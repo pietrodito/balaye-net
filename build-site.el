@@ -25,7 +25,7 @@
        (list "org-site:main"
              ;; Source and destinations
              :base-directory "./content"
-             :publishing-directory "./public"
+             :publishing-directory "../pietrodito.github.io"
              ;; Selecting files
              :recursive t
              ;; Publishing action
@@ -52,9 +52,9 @@
                      "      <nav>"
                      "  <a href=\"./index.html\"><i class=\"fas fa-home\"></i> Home</a>"
                      "  <a href=\"./snds.html\"><i class=\"fas fa-stethoscope\"></i> SNDS</a>"
-                     "  <a href=\"./guitar-repertoire.html\"><i class=\"fas  fa-guitar\"></i> Guitar</a>"
-                     "  <a href=\"https://github.com/pietrodito\"><i class=\"fab  fa-github\"></i> Github</a>"
                      "  <a href=\"https://stackoverflow.com/users/6537892/pietrodito\"><i class=\"fab fa-stack-overflow\"></i> Stack Overflow</a>"
+                     "  <a href=\"https://github.com/pietrodito\"><i class=\"fab  fa-github\"></i> Github</a>"
+                     "  <a href=\"./guitar-repertoire.html\"><i class=\"fas  fa-guitar\"></i> Guitar</a>"
                      "  <a href=\"./how-to.html\"><i class=\"fa-solid fa-screwdriver-wrench\"></i> Making of</a>"
                      "  <a href=\"./contact.html\"><i class=\"fas fa-address-book\"></i> Contact</a>"
                      "      </nav>"
