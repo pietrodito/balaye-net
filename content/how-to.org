@@ -1,7 +1,8 @@
 #+title: Making of
 #+OPTIONS: title:nil
+#+OPTIONS: html-postamble:t
+#+BIND: org-html-postamble-format (("en" "<footer><p >Made with <a href=\"https://www.gnu.org/software/emacs/\">Emacs</a> | <a href=\"https://simplecss.org/\">Simple CSS</a> | <a href=\"https://fontawesome.com//\">Font Awesome</a> | licence <i class='fab fa-creative-commons'></i>-BY</p></footer>")))
 #+OPTIONS: html-postamble:nil
-
 * What I have done so far to make this site up
 -----
 
@@ -12,29 +13,9 @@
 + https://orgmode.org/manual/Publishing.html
 + https://orgmode.org/manual/HTML-Export.html
 + https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html
-
-
 -----
-** Google Cloud Hosting
-+ https://cloud.google.com/storage/docs/hosting-static-website?hl=fr#objectives
-
-*** Sync local files to google bucket with CLI
-
-**** Install gsutil
-
-  #+BEGIN_SRC bash
-  sudo apt-get install apt-transport-https ca-certificates gnupg
-  echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
-  curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
-  sudo apt-get update && sudo apt-get install google-cloud-cli
-  #+END_SRC
-
------
-** Use cloudflare for free SSL certificate
-+ https://dash.cloudflare.com/228fddaae61d793f4f42d6fa7113c567/balaye.net
-
-  You have to redirect connections from Google Domains (DNS submenu) to CloudFlare
-
+** Use github hosting:
++ https://www.youtube.com/watch?v=M5ZtKvk3Sag
 -----
 ** Use simple css
 + https://simplecss.org/

@@ -4,5 +4,4 @@
 
 + À venir
 
-  Un blog sur l'exploitation des données du Systène National des Données de Santé.
-  https://www.snds.gouv.fr/SNDS/Accueil
+  Un blog sur l'exploitation des données du [[Systène National des Données de Santé][https://www.snds.gouv.fr/SNDS/Accueil]].
