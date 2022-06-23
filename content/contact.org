@@ -2,5 +2,5 @@
 #+OPTIONS: html-postamble:nil
 
 + My name is Pierre Balaye
-+ You can email me using pierre dot balaye at gmail dot com
++ email: pierre dot balaye at gmail dot com
 + [[file:dwld/CV_Balaye.pdf][Curriculum Vitae]]
