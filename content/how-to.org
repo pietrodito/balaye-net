@@ -7,11 +7,7 @@
 * Godot test
 
   #+BEGIN_EXPORT html
-  <div class="iframe-container">
-    <iframe style="width:   100%;border:3px solid black; "
-            src="./Pong/index.html"
-            title="Exemple d'iframe" > </iframe>
-  </div>
+<iframe style="width: 100%;border:3px solid black;" src="./Pong/index.html"> </iframe>
 #+END_EXPORT
 -----
 * What I have done so far to make this site up
