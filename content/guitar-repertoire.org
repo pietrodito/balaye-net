@@ -2,8 +2,11 @@
 #+OPTIONS: title:nil
 #+OPTIONS: html-postamble:nil
 
-This is the list of pieces I play in a random order for working puprose
 * Known pieces
+
+This is the list of pieces I play. They are in a random order for working puprose...
+
+
 + ??? - Llorona / BPM 60
 + Granados - Danse espagnole 2 / BPM 60
 + Brouwer - Study 2
