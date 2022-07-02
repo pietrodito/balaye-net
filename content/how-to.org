@@ -29,11 +29,5 @@
 ** Github repo:
 + https://github.com/pietrodito/balaye-net
 
-* Godot test
 
-#+BEGIN_EXPORT html
- <div class="container">
-  <iframe class="responsive-iframe" src="./Pong/index.html"> </iframe>
-</div>
-#+END_EXPORT
 -----

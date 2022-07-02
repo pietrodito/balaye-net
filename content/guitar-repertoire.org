@@ -2,6 +2,12 @@
 #+OPTIONS: title:nil
 #+OPTIONS: html-postamble:nil
 
+#+BEGIN_EXPORT html
+ <div class="container">
+  <iframe class="responsive-iframe" src="./MIDI_PIANO_HTML/index.html"> </iframe>
+</div>
+#+END_EXPORT
+
 * Known pieces
 
 This is the list of pieces I play. They are in a random order for working puprose...
